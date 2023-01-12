@@ -1,12 +1,21 @@
-마크 다운(mark down)
- 텍스트 기반의 가벼운 마크업(markup)언어  
-  *마크업 : 태그를 이용하여 문서의 구조를 나타내는 것
- 문서의 구조와 내용을 같이 쉽고 빠르게 적고자 탄생
-  -#(헤딩) : 문서의 제목이나 소제목으로 사용
-  -1. 2. 3.(리스트) : 순서가 있는 리스트와 순서가 없는 리스트
-  -``` .. ```(코드 블럭): 일반 텍스트와 다르게 코드를 이쁘게 출시
-  -[..](url) (링크) : ..은 보여지는 부분, url은 연결한 곳
-  -![..](img_url) (이미지) : 이미지 등장
-  -텍스트 강조(** **,* *,~~ ~~) : 텍스트 강조
-  - ---(수평선) : 가로로 긴 수평선 작성
-위 내용은 https://www.markdownguide.org/cheat-sheet/ 에 있습니다.
+Repository - 특정 디렉토리를 버전 관리하는 저장소
+ -git init 명령어로 로컬 저장소를 생성
+ -.git 디렉토리에 버전 관리에 필요한 모든 것이 들어있음
+ -특정 버전으로 남긴다 = "커밋(commit)한다"
+
+ working directory -> 작업 영역
+ Staging Area -> commit으로 남기고 싶은 내용
+ repository -> commit 중에서 남기고 싶은 내용만
+ 
+ git 명령어
+ git add : working -> staging
+ git commit : staging -> repository ex)git commit-m "add README.md" /commit 한 제목
+ git remote add origin https://~~~~ : 뒤 url 을 origin 으로 부르겠다. 
+ git remote -v : github 에 연결 되었는지 확인
+ git push -u origin main: 인터넷에 올리기
+ git log : 기록 확인
+ git branch -M main : master 였던 걸 main 으로 변경
+ git status : 현재 상태 확인 
+ *VIM 탈출법 : ESC -> : > q > !
+ *Enter 탈출법 : q
+ git clone 과 download 의 차이 : .git의 유무 즉, 변경 이력을 알 수 없음.
