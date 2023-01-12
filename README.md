@@ -67,7 +67,7 @@
  - git status : 현재 상태 확인 
  * VIM 탈출법 : ESC -> : > q > !
  * Enter 탈출법 : q
- git clone 과 download 의 차이 : .git의 유무 즉, 변경 이력을 알 수 없음.
+ > git clone 과 download 의 차이 : .git의 유무 즉, 변경 이력을 알 수 없음.
 
 # 명령어/bash에서 사용
  - ls: 목록 확인
