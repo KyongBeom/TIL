@@ -1,5 +1,5 @@
 p**2023-01-12/ markdown all in one 설치**
-
++ solved.ac 에서 알고리즘 공부
 >### GUI(Graphic User Interface)
 그래픽을 통해 사용자와 컴퓨터가 상호작용/일상 폴더나 바탕화면
 
