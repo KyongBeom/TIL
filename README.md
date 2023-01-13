@@ -1,4 +1,4 @@
-**2023-01-12/ markdown all in one 설치**
+p**2023-01-12/ markdown all in one 설치**
 
 >### GUI(Graphic User Interface)
 그래픽을 통해 사용자와 컴퓨터가 상호작용/일상 폴더나 바탕화면
@@ -19,7 +19,7 @@
  >- 현재 작업하고 있는 디렉토리가 C:/Users 일 때
  >-  윈도우 바탕 화면으로의 상대 경로는 ssafy/desktop
  >- ./: 현재 작업하고 있는 폴더 
- >- ../: 현재 작업하고 있는 폴더의 부모 폴더
+ >- g../: 현재 작업하고 있는 폴더의 부모 폴더
   
 # 마크 다운(mark down)
  **텍스트 기반의 가벼운 마크업(markup)언어**
@@ -67,6 +67,12 @@
  >- git log : 기록 확인
  >- git branch -M main : master 였던 걸 main 으로 변경
  >- git status : 현재 상태 확인 
+ >- git reset : git add가 된 상태(working -> staging)을 다시 돌려주는 명령어
+ >   - reset 옵션
+ >   - soft : index 보존(add한 상태, staged 상태), 워킹 디렉터리의 파일 보존. 즉 모두 보존.
+ >   - mixed : index 취소(add하기 전 상태, unstaged 상태), 워킹 디렉터리의 파일 보존 (기본 옵션)
+ >   - hard : index 취소(add하기 전 상태, unstaged 상태), 워킹 디렉터리의 파일 삭제. 즉 모두 취소.    
+ >  - git commit --amend : 수정사항 이름을 바꿔주는 역활
  ```
  * VIM 탈출법 : ESC -> : > q > !
  * Enter 탈출법 : q
