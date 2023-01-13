@@ -74,8 +74,13 @@ p**2023-01-12/ markdown all in one 설치**
  >   - hard : index 취소(add하기 전 상태, unstaged 상태), 워킹 디렉터리의 파일 삭제. 즉 모두 취소.    
  >  - git commit --amend : 수정사항 이름을 바꿔주는 역활
  ```
- * VIM 탈출법 : ESC -> : > q > !
- * Enter 탈출법 : q
+ *vim 간단 사용법
+ i -> 입력모드
+ ESC를 누르면 명령 모드
+ :w -> 저장
+ :q -> 닫기
+ :wq -> 저장하고 닫기
+ :q! -> 저장하지 않고 닫기
  ```
  > git clone 과 download 의 차이 : .git의 유무 즉, 변경 이력을 알 수 없음.
 
