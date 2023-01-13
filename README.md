@@ -75,6 +75,7 @@ p**2023-01-12/ markdown all in one 설치**
  >  - git commit --amend : 수정사항 이름을 바꿔주는 역할
  >  - gitignore : 올리지 말아야 할 자료를 숨겨줌
  >      - ex).gitignore 파일 생성 후 안에 숨겨야 하는 파일 명 작성/
+ >  - git pull(+origin main) : 팀 작업을 할 때, 다른 사람이 업데이트 한 내용을 내 파일에 적용시킨다.
  ```
  *vim 간단 사용법
  i -> 입력모드
@@ -104,6 +105,11 @@ p**2023-01-12/ markdown all in one 설치**
  -   rm -r : 삭제시 하위 경로 모든 파일과 폴더 삭제
  -   rm -f : 안 물어보고 삭제 ***조심해서 사용
  -   rm -rf : * 사용시 매우 주의 *
+```
+
+```
+emerge
+conflict
 ```
 사용 편의
 - tap : 앞글자에서 가장 가깝거나 비슷한 글자 바로 탄생
