@@ -66,7 +66,8 @@ p**2023-01-12/ markdown all in one 설치**
  >- git push -u origin main: 인터넷에 올리기
  >- git log : 기록 확인
  >- git branch -M main : master 였던 걸 main 으로 변경
- >- git status : 현재 상태 확인 
+ >- git status : 현재 상태 확인
+ >- git restore : git add가 된 상태 취소 
  >- git reset : git add가 된 상태(working -> staging)을 다시 돌려주는 명령어
  >   - reset 옵션
  >   - soft : index 보존(add한 상태, staged 상태), 워킹 디렉터리의 파일 보존. 즉 모두 보존.
