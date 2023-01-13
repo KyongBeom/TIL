@@ -72,7 +72,9 @@ p**2023-01-12/ markdown all in one 설치**
  >   - soft : index 보존(add한 상태, staged 상태), 워킹 디렉터리의 파일 보존. 즉 모두 보존.
  >   - mixed : index 취소(add하기 전 상태, unstaged 상태), 워킹 디렉터리의 파일 보존 (기본 옵션)
  >   - hard : index 취소(add하기 전 상태, unstaged 상태), 워킹 디렉터리의 파일 삭제. 즉 모두 취소.    
- >  - git commit --amend : 수정사항 이름을 바꿔주는 역활
+ >  - git commit --amend : 수정사항 이름을 바꿔주는 역할
+ >  - gitignore : 올리지 말아야 할 자료를 숨겨줌
+ >      - ex).gitignore 파일 생성 후 안에 숨겨야 하는 파일 명 작성/
  ```
  *vim 간단 사용법
  i -> 입력모드
